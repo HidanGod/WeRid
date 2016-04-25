@@ -1,0 +1,324 @@
+﻿@charset "windows-1251";
+/* CSS Document */
+.add
+{ 
+   position: relative; 
+    z-index: 16;
+    top: 500px;
+    left: -800px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+    background: #FFFFFF;
+  
+}
+
+/*динамически созданое */
+/*таблица */
+.table
+{
+  height:110px;
+  width: 700px;
+    position: relative; 
+    z-index: 12;
+    top: 50px;
+    left: 50px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+    background: transparent;
+}
+/*ячейки */
+.cell
+{
+   border: 20px; 
+   border-color: transparent;
+}
+/*панель внутри ячейки */
+.newPanel
+{
+  position:relative;
+  height:110px;
+  width: 700px; 
+  background: #FFFFFF;
+  border: 20px;
+  border-color: transparent;
+}
+.butonnews
+{
+  position: relative; 
+  left: 150px;
+  top: 220px;
+  height: 30px;
+  width: 150px; 
+  Border: 0;
+}
+/*загаловок */
+.zagalovok
+{
+  position: absolute; 
+  text-align: right;
+  left: 0px;
+  top: 5px;
+  height:30px;
+  width: 50%; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*тип */
+.Tip
+{
+  position: absolute; 
+
+  left: 51%;
+  top: 10px;
+  height:30px;
+  width: 49%; 
+  Border: 0;
+  Color: grey;
+  font:8pt PT Sans, sans-serif;
+
+}
+/*картинка поста*/
+.pictche1
+{
+  position: absolute; 
+  text-align: center;
+  top: 30px;
+  left:10px;
+  height:80px;
+  width: 90px; 
+  Border: 0;
+}
+
+.pictche
+{ 
+  position:absolute;
+  z-index:600;
+  top:0;
+  left:0; 
+  min-width:100%;
+  min-height:100%;
+
+}
+/*кнопка удалить*/
+.ImageDelitePost
+{
+   position:relative;
+   top: 0px;
+   left: 0px;
+   float:right;
+   margin-right: auto;
+   height:20px;
+   width: 20px; 
+   background: url('/resource/delite.png') no-repeat;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+   -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+   -o-background-size: 100%; /* Opera 9.6+ */
+   background-size: 100%; /* Современные браузеры */
+}
+/*кнопка редактировать*/
+.ImageRedaktirovatPost
+{
+   position:relative;
+   top: 0px;
+   left: -20px;
+   float:right;
+   margin-right: auto;
+   height:20px;
+   width: 20px; 
+   background: url('/resource/redaktirovat.png') no-repeat;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+   -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+   -o-background-size: 100%; /* Opera 9.6+ */
+   background-size: 100%; /* Современные браузеры */
+}
+/*аватарка автора поста*/
+.avtorpictche
+{
+  z-index: 100; 
+  position: absolute; 
+  top: 30px;
+  left: 210px;
+  height:90px;
+  width: 80px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+/*имя автора поста */
+.avtorLabel
+{
+  text-align: center;
+  z-index: 99; 
+  position: absolute; 
+  top: 135px;
+  left: 220px;
+  height:100px;
+  width: 30px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*карма автора поста*/
+.karmaavtorLabel
+{
+ text-align: center;
+  z-index: 99; 
+  position: absolute; 
+  top: 120px;
+  left: 200px;
+  height:10px;
+  width: 100px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  Border: 0;
+  font:8pt PT Sans, sans-serif;
+
+
+}
+/*дата создаия поста*/
+.dataLabel
+{
+  position: absolute; 
+  left: 10px;
+  top:150px;
+  height:30px;
+  width: 320px; 
+}
+/*рейтинг поста */
+.reitLabel
+{
+  position: absolute; 
+  left: 300px;
+  top:90px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+  Color: black;
+
+}
+.LableTip
+{
+  position:relative;
+  top: 10px;
+  left: -100px;
+  float:right;
+  margin-right: auto;
+  height:30px;
+  width: 100px;
+  font:8pt PT Sans, sans-serif;
+  Color: black;
+}
+/*количество просмотров*/
+.prosmotrLabel
+{
+  position: absolute; 
+  left: 100px;
+  top:90px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+ Color: black;
+}
+/*текст новости*/
+.textnews
+{
+  position: absolute; 
+  left: 100px;
+  top:40px;
+  height:40px;
+  width: 500px; 
+  font:11pt PT Sans, sans-serif;
+  Color: black;
+}
+
+/*создать пост*/
+.PostCreat1
+{
+
+  text-decoration:none; text-align:center; 
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 				
+  border-radius: 33px 33px 34px 34px; 					
+  -moz-border-radius-topleft:33px; 					
+  -moz-border-radius-topright:33px; 				
+  	-moz-border-radius-bottomleft:34px; 			
+ -moz-border-radius-bottomright:34px;  
+ font:21px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+  top: 90%;
+  left: 80%;
+  position: fixed; 
+  }
+  .PostCreat1:hover{
+
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 				 
+ border-radius: 33px 33px 34px 34px; 					
+ -moz-border-radius-topleft:33px; 					
+ -moz-border-radius-topright:33px; 					
+ -moz-border-radius-bottomleft:34px; 				
+ 	-moz-border-radius-bottomright:34px;  
+ font:23px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+  top: 90%;
+  left: 80%;
+  position: fixed; 
+ }
+ .PostCreat1:active{
+
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 			
+  border-radius: 33px 33px 34px 34px; 					
+ -moz-border-radius-topleft:33px; 					
+ -moz-border-radius-topright:33px; 					
+ -moz-border-radius-bottomleft:34px; 					
+ -moz-border-radius-bottomright:34px;  
+ font:22px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+ text-shadow: 0px 0px 1px #94ebf7; 
+ filter: dropshadow(color=#94ebf7, offx=0, offy=0);
+  top: 90%;
+  left: 80%;
+  position: fixed; 
+ }
+

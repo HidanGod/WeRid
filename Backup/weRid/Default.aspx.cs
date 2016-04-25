@@ -14,7 +14,7 @@ using MySql.Data.MySqlClient;
 
 namespace weRid
 {
-	//тестовый комент, проверяем гитхаб!
+	
 	public partial class Default : System.Web.UI.Page
 	{
 		public void Page_Load (object sender, EventArgs args)

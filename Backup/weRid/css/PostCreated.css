@@ -1,0 +1,206 @@
+﻿ï»¿@charset "windows-1251";
+/* CSS Document */
+/*ÑÐ°Ð¼Ñ‹Ð¹ Ð²ÐµÑ€Ñ… */
+.CreatPostText
+{
+  position: absolute; 
+  text-align: center;
+  left: 0x;
+  top: 0px;
+  height:30px;
+  width: 100%; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+
+/*ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ° Ð¿Ð¾ÑÑ‚Ð°*/
+.PostPictche
+{
+  position: absolute; 
+  text-align: center;
+  top: 30px;
+  left:10px;
+  height:370px;
+  width: 350px; 
+  Border: 0;
+
+}
+/*Ð·Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚ÑŒ*/
+.PostPictcheLoad
+{
+  position: absolute; 
+  text-align: center;
+  top: 400px;
+  left:10px;
+  height:40px;
+  width: 350px; 
+  Border: 0;
+  background: #FFFFFF;
+   border: 5px solid #FFFFFF; 
+}
+.PostPictcheLoad1
+{
+  position: absolute; 
+  text-align: center;
+  top: 440px;
+  left:10px;
+  height:30px;
+  width: 350px; 
+  Border: 0;
+  background: #FFFFFF;
+   border: 5px solid #FFFFFF; 
+}
+/*Ñ‚Ð¸Ð¿ Ð»Ð°Ð±Ð»Ðµ*/
+.TipePost
+{
+  position: absolute; 
+  text-align: left;
+  left: 390px;
+  top: 30px;
+  height:30px;
+  width: 150px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+}
+/*Ñ‚Ð¸Ð¿ Ð»Ð¸ÑÑ‚*/
+.Tipi
+{
+  position: absolute; 
+  text-align: left;
+  left: 560px;
+  top: 30px;
+  height:30px;
+  width: 300px; 
+  Border: 0;
+  font:14pt PT Sans, sans-serif;
+  border: 1px solid #111111; 
+  background: #FFFFFF;
+}
+/*Ð·Ð°Ð³Ð°Ð»Ð¾Ð²Ð¾Ðº*/
+/*Ð·Ð°Ð³Ð°Ð»Ð¾Ð²Ð¾Ðº lable*/
+.ZaglavPost
+{
+  position: absolute; 
+  text-align: left;
+  left: 390px;
+  top: 80px;
+  height:30px;
+  width: 150; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+
+}
+/*Ð·Ð°Ð³Ð°Ð»Ð¾Ð²Ð¾Ðº textbox*/
+.TextZglavPosta
+{
+  position: absolute; 
+  text-align: left;
+  left: 560px;
+  top: 80px;
+  height:30px;
+  width: 300px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+   border: 1px solid #111111; 
+}
+/*Ñ‚ÐµÐºÑÑ‚*/
+/*Ñ‚ÐµÐºÑÑ‚ lable*/
+.TextPostaLable
+{
+  position: absolute; 
+  text-align: left;
+  left: 390px;
+  top: 150px;
+  height:30px;
+  width: 150px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+
+}
+/*Ñ‚ÐµÐºÑÑ‚ textbox*/
+.TextPosta
+{
+  position: absolute; 
+  text-align: left;
+  left: 560px;
+  top: 150px;
+  height:300px;
+  width: 400px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+  border: 1px; /* Ð Ð°Ð¼ÐºÐ° Ð²Ð¾ÐºÑ€ÑƒÐ³ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ */ 
+   border: 1px solid #111111; 
+   resize: none;
+}
+/*ÐºÑ€Ð°Ñ‚ÐºÐ¾*/
+/*ÐºÑ€Ð°Ñ‚ÐºÐ¾Ðµ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸Ðµ Ð¿Ð¾ÑÑ‚Ð° Ð»Ð°Ð±Ð»Ðµ*/
+.KratkText
+{
+  position: absolute; 
+  text-align: left;
+  left: 390px;
+  top: 500px;
+  height:200px;
+  width: 120px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+    white-space: pre-wrap;
+  word-wrap: break-word;
+}
+/*ÐºÑ€Ð°Ñ‚ÐºÐ¾Ðµ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸Ðµ Ð¿Ð¾ÑÑ‚Ð° textbox*/
+.KratkTextPosta
+{
+  position: absolute; 
+  text-align: left;
+  left: 560px;
+  top: 500px;
+  height:140px;
+  width: 300px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+  border: 1px; /* Ð Ð°Ð¼ÐºÐ° Ð²Ð¾ÐºÑ€ÑƒÐ³ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ */ 
+   border: 1px solid #111111; 
+   resize: none;
+}
+
+/*Ñ€Ð°Ð·Ð´ÐµÐ»*/
+/*Ñ€Ð°Ð·Ð´ÐµÐ» lable*/
+.RazdelPosta
+{
+  position: absolute; 
+  text-align: left;
+  left: 390px;
+  top:670px;
+  height:30px;
+  width: 300px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+}
+/*Ñ€Ð°Ð·Ð´ÐµÐ» textbox*/
+.RazdelPostaText
+{
+  position: absolute; 
+  text-align: left;
+  left: 560px;
+  top: 670px;
+  height:30px;
+  width: 300px; 
+  Border: 0;
+  Color: black;
+  font:14pt PT Sans, sans-serif;
+  border: 1px; /* Ð Ð°Ð¼ÐºÐ° Ð²Ð¾ÐºÑ€ÑƒÐ³ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ */ 
+   border: 1px solid #111111; 
+}
+
+/*ÐºÐ½Ð¾Ð¿ÐºÐ° ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ*/
+
+
