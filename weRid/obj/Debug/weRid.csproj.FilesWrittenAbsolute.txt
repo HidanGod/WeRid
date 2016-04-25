@@ -1,0 +1,6 @@
+/home/hidangod/Документы/weRid/weRid/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/hidangod/Документы/weRid/weRid/bin/weRid.dll.mdb
+/home/hidangod/Документы/weRid/weRid/bin/weRid.dll
+/home/hidangod/Документы/weRid/weRid/obj/Debug/weRid.dll
+/home/hidangod/Документы/weRid/weRid/obj/Debug/weRid.dll.mdb
+/home/hidangod/Документы/weRid/weRid/bin/MySql.Data.dll

@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="test/test.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="iceweasel" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="test/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

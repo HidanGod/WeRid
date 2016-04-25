@@ -1,0 +1,161 @@
+@charset "windows-1251";
+/* CSS Document */
+
+/*динамически созданое */
+/*таблица */
+.table
+{
+    position: relative; 
+    z-index: 12;
+    top: 30px;
+    left: 60px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+     border-color: transparent;
+}
+/*ячейки */
+.cell
+{
+    border: 0px; 
+   border-color: transparent;
+}
+/*панель внутри ячейки */
+.newPanel
+{
+  position:relative;
+  height:250px;
+  width: 300px; 
+  background: #FFFFFF;
+  border: 4px solid; 
+  border-color: transparent;
+}
+.butonnews
+{
+  position: relative; 
+  left: 150px;
+  top: 220px;
+  height: 30px;
+  width: 150px; 
+  Border: 0;
+}
+/*загаловок */
+.zagalovok
+{
+  position: absolute; 
+  text-align: center;
+  top: 5px;
+  height:30px;
+  width: 320px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*картинка поста*/
+.pictche
+{
+  position: absolute; 
+  text-align: center;
+  top: 30px;
+  left:10px;
+  height:120px;
+  width: 170px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+/*аватарка автора поста*/
+.avtorpictche
+{
+  z-index: 100; 
+  position: absolute; 
+  top: 30px;
+  left: 210px;
+  height:90px;
+  width: 80px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+/*имя автора поста */
+.avtorLabel
+{
+  text-align: center;
+  z-index: 99; 
+  position: absolute; 
+  top: 135px;
+  left: 220px;
+  height:100px;
+  width: 30px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*карма автора поста*/
+.karmaavtorLabel
+{
+ text-align: center;
+  z-index: 99; 
+  position: absolute; 
+  top: 120px;
+  left: 200px;
+  height:10px;
+  width: 100px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  Border: 0;
+  font:8pt PT Sans, sans-serif;
+=
+}
+/*дата создаия поста*/
+.dataLabel
+{
+  position: absolute; 
+  left: 10px;
+  top:150px;
+  height:30px;
+  width: 320px; 
+}
+/*рейтинг поста */
+.reitLabel
+{
+  position: absolute; 
+  left: 100px;
+  top:150px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+  Color: black;
+}
+/*количество просмотров*/
+.prosmotrLabel
+{
+  position: absolute; 
+  left: 5px;
+  top:150px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+ Color: black;
+}
+/*текст новости*/
+.textnews
+{
+  position: absolute; 
+  left: 10px;
+  top:175px;
+  height:30px;
+  width: 300px; 
+  font:11pt PT Sans, sans-serif;
+ Color: black;
+}
+
+
+

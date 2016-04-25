@@ -1,0 +1,234 @@
+﻿@charset "windows-1251";
+/* CSS Document */
+/*основная платформа по середине*/
+.MainPanel1
+{
+  position: absolute; 
+  left: 230px;
+  top: 150px;
+  height:90%;
+  width:80%;
+  border: 2px solid #FFFF11; 
+  background: #FFFFFF;
+}
+/*надпись вверху*/
+.zaglavpage
+{ 
+   position: fixed; 
+   z-index: 79;
+   text-align: center;
+   top: 130px;
+   left: 60px;
+   height:30px;
+   width: 100%;
+   border: 0px; /* Рамка вокруг таблицы */ 
+   background: #FFFFFF;
+  
+}
+/*панель1*/
+.page1
+{ 
+    position: absolute; 
+    height:600px;
+    width: 900px;
+    z-index:78;
+    top:10px;
+    left: 10px;
+    border: 1px; /* Рамка вокруг таблицы */ 
+    background: #98F2F5;
+   border: 5px solid #FFF11F; 
+}
+/*панель2 */
+.page2
+{
+    position: absolute; 
+    height:800px;
+    width: 900px;
+    z-index:78;
+    top: 40px;
+    left: 10px;
+    border: 1px; /* Рамка вокруг таблицы */ 
+     background: url('/resource/sky.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+     border: 5px solid #FFF11F; 
+}
+/*кнопки свернуть */
+.DopInfo
+{
+    position: absolute; 
+    height: 30px;
+    width: 210px;
+    z-index:78;
+    top:0px;
+    left: 10px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+     background: transparent;
+}
+/*пост закрыт*/
+.PostClose
+{
+    position: absolute; 
+    height: 30px;
+    width: 210px;
+    z-index:78;
+    top: 40px;
+    left: 10px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+     background: transparent;
+}
+/*текст добавить участников */
+.LableAdd
+{
+    position: absolute; 
+    height: 30px;
+    width: 210px;
+    z-index:78;
+    top: 80px;
+    left: 10px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+    background: transparent;
+}
+/*текст добавить участников */
+.TextBoxAdd
+{
+    position: absolute; 
+    height: 300px;
+    width: 600px;
+    z-index:78;
+    top: 80px;
+    left: 230px;
+    border: 1px; /* Рамка вокруг таблицы */ 
+    background: #FFFFFF;
+     border: 5px solid #FFF11F; 
+}
+/*описание сделанного */
+.LableOpis
+{
+   position: absolute; 
+    height: 30px;
+    width: 210px;
+    z-index:78;
+    top: 400px;
+    left: 10px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+     background: transparent;
+     border: 5px solid #FFF11F; 
+}
+/*описание сделанного */
+.TextBoxOpis
+{
+  position: absolute; 
+    height: 300px;
+    width: 600px;
+    z-index:78;
+    top: 400px;
+    left: 230px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+    background: #FFFFFF;
+     border: 5px solid #FFF11F; 
+}
+/*Прикрепить файл*/
+.LableAddFile
+{ 
+   position: absolute; 
+    height: 30px;
+    width: 210px;
+    z-index:78;
+    top: 720px;
+    left: 10px;
+    border: 0px; /* Рамка вокруг таблицы */ 
+     background: transparent;
+     border: 5px solid #FFF11F; 
+}
+/*кнопка сохранить*/
+
+.PostSave
+{
+
+  text-decoration:none; text-align:center; 
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 				
+  border-radius: 33px 33px 34px 34px; 					
+  -moz-border-radius-topleft:33px; 					
+  -moz-border-radius-topright:33px; 				
+  	-moz-border-radius-bottomleft:34px; 			
+ -moz-border-radius-bottomright:34px;  
+ font:21px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+  top: 90%;
+  left: 85%;
+  position: fixed; 
+      z-index: 188;
+  }
+  .PostSave:hover{
+      z-index: 188;
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 				 
+ border-radius: 33px 33px 34px 34px; 					
+ -moz-border-radius-topleft:33px; 					
+ -moz-border-radius-topright:33px; 					
+ -moz-border-radius-bottomleft:34px; 				
+ 	-moz-border-radius-bottomright:34px;  
+ font:23px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+  top: 90%;
+  left: 85%;
+  position: fixed; 
+ }
+ .PostSave:active{
+     z-index: 112;
+ padding:24px 30px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:33px 33px 34px 34px; 	 			
+  border-radius: 33px 33px 34px 34px; 					
+ -moz-border-radius-topleft:33px; 					
+ -moz-border-radius-topright:33px; 					
+ -moz-border-radius-bottomleft:34px; 					
+ -moz-border-radius-bottomright:34px;  
+ font:22px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#b8e6f5; 
+ background-image: -moz-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #b8e6f5 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #b8e6f5 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #b8e6f5 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff; 
+ -moz-box-shadow: 0px 0px 7px #bababa,  inset 0px 0px -1px #ffffff;  
+ box-shadow:0px 0px 7px #bababa, inset 0px 0px -1px #ffffff;  
+ text-shadow: 0px 0px 1px #94ebf7; 
+ filter: dropshadow(color=#94ebf7, offx=0, offy=0);
+  top: 90%;
+  left: 85%;
+  position: fixed; 
+ }
+

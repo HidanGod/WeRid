@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="weRid/weRid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="iceweasel" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="weRid/Page/PostCreated.aspx.cs">
+    <Files>
+      <File FileName="weRid/js/news.js" Line="43" Column="3" />
+      <File FileName="weRid/js/start.js" Line="100" Column="10" />
+      <File FileName="weRid/Page/Glavnaia.aspx.cs" Line="46" Column="6" />
+      <File FileName="weRid/css/PostCreated.css" Line="207" Column="1" />
+      <File FileName="weRid/Page/PostCreated.aspx.cs" Line="159" Column="4" />
+      <File FileName="weRid/Page/PostCreated.aspx" Line="42" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

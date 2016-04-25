@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{004F8E0C-69FB-4313-AF25-8F5FAA90C4AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>weRid</RootNamespace>
+    <AssemblyName>weRid</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="MySql.Data">
+      <HintPath>MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\mypage.css" />
+    <Content Include="js\size.js" />
+    <Content Include="js\test.js" />
+    <Content Include="js\test1.js" />
+    <Content Include="js\text.js" />
+    <Content Include="resource\1svernut.jpg" />
+    <Content Include="resource\8rmn-V7xZ7E.jpg" />
+    <Content Include="resource\123.png" />
+    <Content Include="resource\321.png" />
+    <Content Include="resource\252145181.jpg" />
+    <Content Include="resource\avatar.jpg" />
+    <Content Include="resource\f0NSHNMXMfI.jpg" />
+    <Content Include="resource\fon.jpg" />
+    <Content Include="resource\fonsleva.jpg" />
+    <Content Include="resource\kot.jpg" />
+    <Content Include="resource\logo.jpg" />
+    <Content Include="resource\lupa.jpg" />
+    <Content Include="resource\niz.jpg" />
+    <Content Include="resource\pick.jpg" />
+    <Content Include="resource\svernut.jpg" />
+    <Content Include="resource\zem.gif" />
+    <Content Include="resource\zem.jpg" />
+    <Content Include="resource\zem 1.gif" />
+    <Content Include="js\news.js" />
+    <Content Include="js\start.js" />
+    <Content Include="Page\MyPage.aspx" />
+    <Content Include="Page\Glavnaia.aspx" />
+    <Content Include="css\login.css" />
+    <Content Include="Page\MyPosts.aspx" />
+    <Content Include="js\myposts.js" />
+    <Content Include="css\myposts.css" />
+    <Content Include="Page\Post.aspx" />
+    <Content Include="css\Post.css" />
+    <Content Include="Page\PostRedaction.aspx" />
+    <Content Include="Page\PostCreated.aspx" />
+    <Content Include="css\PostCreated.css" />
+    <Content Include="css\PostRedaction.css" />
+    <Content Include="js\MyPage.js" />
+    <Content Include="css\Glavnaia.css" />
+    <Content Include="js\go.js" />
+    <Content Include="js\uoload.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="klass\jsonobjkt.cs" />
+    <Compile Include="Page\MyPage.aspx.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MyPage.aspx.designer.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Glavnaia.aspx.cs">
+      <DependentUpon>Glavnaia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Glavnaia.aspx.designer.cs">
+      <DependentUpon>Glavnaia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MyPosts.aspx.cs">
+      <DependentUpon>MyPosts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MyPosts.aspx.designer.cs">
+      <DependentUpon>MyPosts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Post.aspx.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Post.aspx.designer.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PostRedaction.aspx.cs">
+      <DependentUpon>PostRedaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PostRedaction.aspx.designer.cs">
+      <DependentUpon>PostRedaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PostCreated.aspx.cs">
+      <DependentUpon>PostCreated.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PostCreated.aspx.designer.cs">
+      <DependentUpon>PostCreated.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="klass\" />
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="resource\" />
+    <Folder Include="Page\" />
+  </ItemGroup>
+</Project>
