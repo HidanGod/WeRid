@@ -15,7 +15,9 @@ using System.Web.Configuration;
 
 namespace weRid
 {
-	//тестовый комент, проверяем гитхаб!
+	
+//тестовый комент, проверяем гитхаб!
+//тестовый комент, проверяем гитхаб!
 	public partial class Default : System.Web.UI.Page
 	{
 		public void Page_Load (object sender, EventArgs args)
