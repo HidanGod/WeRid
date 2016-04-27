@@ -16,38 +16,15 @@
           <asp:Button id="Registration" class="Registration" runat="server"  Text="Регестрация" OnClick="Registration_cleked"/>
           <asp:Button id="Auterification" class="Auterification" runat="server"  Text="Вход" OnClick="Auterification_cleked" />
           <asp:Panel id="panelfon"  runat="server" CssClass="panelfon">
-             <asp:ScriptManager id="ScriptManager1" runat="server"></asp:ScriptManager>
-                 <asp:Login ID="Login1" 
-	                 OnLoginError="Login1_LoginError"
-	                 OnAuthenticate="LoginAction_Click"             
-	                 OnLoggingIn="Login1_Authentication"
-	                 runat="server"  
-	                 TitleText=""
-	                 InstructionText="Пожалуйста введите имя пользователя и пароль для входа в систему"
-	                 UserNameLabelText="Логин:"
-	                 PasswordLabelText="Пароль:"
-	                 RememberMeText="запомнить пароль"
-	                 LoginButtonText="вход"
-	                 UsernameRequiredErrorMessage="Пожалуйста введите имя пользователя"
-	                 PasswordRequiredErrorMessage="Пожалуйста введите пароль"
-	                 DestinationPageUrl="~/Default.aspx"
-	                 VisibleWhenLoggedIn="true"
-                     CreateUserText=""
-                     CreateUserUrl=""
-                     HelpPageText=""
-               
-                     PasswordRecoveryUrl="~/PasswordRecovery.aspx" 
-	                 CssClass="Login">
-	                 <CheckBoxStyle CssClass="CheckBoxStyle"/>
-	                 <LabelStyle CssClass="LabelStyle"/>
-	                 <FailureTextStyle CssClass="FailureTextStyle"/>
-	                 <ValidatorTextStyle CssClass="ValidatorTextStyle"/>
-                     <TextBoxStyle  CssClass="MyLoginTextBoxStyle" />
-                     <LoginButtonStyle  CssClass="Registration2"/>
-                     <InstructionTextStyle Font-Italic="True" ForeColor="Black"  CssClass="text"/>
-                     <TitleTextStyle CssClass="Title"/>
-	             </asp:Login>
-
+             <asp:Button id="Registration" class="Registration" runat="server"  Text="Регестрация" OnClick="Registration_cleked"/>
+          <asp:Button id="Auterification" class="Auterification" runat="server"  Text="Вход" OnClick="Auterification_cleked" />
+          <asp:Panel id="panelfon"  runat="server" CssClass="panelfon"  defaultfocus="Auterification2">
+                 <asp:Label id="LableZaglav" runat="server"  CssClass="TextLog" text="Пожалуйста введите данные для регистрации" />
+	             <asp:Label id="LableLogin" runat="server"  CssClass="login2" text="Логин" />
+	             <asp:TextBox id="TextLogin"  runat="server"  CssClass="loginText"   defaultfocus="Auterification2" />
+	             <asp:Label id="LablePasswd" runat="server"  CssClass="Passwd" text="Пароль" />
+	             <asp:TextBox id="TextPasswd"  runat="server"  CssClass="PasswdText"   defaultfocus="Auterification2" />
+	             <asp:Button id="Auterification2" class="Registration2" runat="server"  Text="Вход" OnClick="LoginAction_Click"/>
 	      </asp:Panel>
 	      <asp:Panel id="panelfon2"  runat="server" CssClass="panelfon2">
 	             <asp:Label id="TextReg" runat="server"  CssClass="TextReg" text="Пожалуйста введите данные для регистрации" />

@@ -13,7 +13,9 @@ namespace weRid {
 	
 	public partial class Default {
 		
-		protected System.Web.UI.HtmlControls.HtmlForm form1;
+protected System.Web.UI.HtmlControls.HtmlForm form1;
+		
+		protected System.Web.UI.WebControls.TextBox sdf;
 		
 		protected System.Web.UI.WebControls.Panel panelfon1;
 		
@@ -23,9 +25,17 @@ namespace weRid {
 		
 		protected System.Web.UI.WebControls.Panel panelfon;
 		
-		protected System.Web.UI.ScriptManager ScriptManager1;
+		protected System.Web.UI.WebControls.Label LableZaglav;
 		
-		protected System.Web.UI.WebControls.Login Login1;
+		protected System.Web.UI.WebControls.Label LableLogin;
+		
+		protected System.Web.UI.WebControls.TextBox TextLogin;
+		
+		protected System.Web.UI.WebControls.Label LablePasswd;
+		
+		protected System.Web.UI.WebControls.TextBox TextPasswd;
+		
+		protected System.Web.UI.WebControls.Button Auterification2;
 		
 		protected System.Web.UI.WebControls.Panel panelfon2;
 		
@@ -62,5 +72,7 @@ namespace weRid {
 		protected System.Web.UI.WebControls.TextBox ProvText;
 		
 		protected System.Web.UI.WebControls.Button Registration2;
+		
+
 	}
 }

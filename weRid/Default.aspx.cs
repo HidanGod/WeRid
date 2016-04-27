@@ -33,12 +33,14 @@ namespace weRid
 		{
 			panelfon2.Visible = false;
 			panelfon.Visible = true;
+			Auterification2.UseSubmitBehavior = true;
+			Auterification2.Focus();
 
 		}
 		protected void Login1_Authentication(object sender, EventArgs e)
 		{
-			string  xlogin = Login1.UserName;
-			string  xpass= Login1.Password;
+			string  xlogin = TextLogin.Text;
+			string  xpass= TextPasswd.Text;
 			//string ID = Request.QueryString["ID"]; 
 			string go =string.Format("SELECT * FROM user");
 			//string go ="SELECT * FROM user WHERE LOGAN";
