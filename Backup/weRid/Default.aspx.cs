@@ -11,11 +11,10 @@ using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using MySql.Data;
 using MySql.Data.MySqlClient;
-using System.Web.Configuration;
 
 namespace weRid
 {
-	//тестовый комент, проверяем гитхаб!
+	
 	public partial class Default : System.Web.UI.Page
 	{
 		public void Page_Load (object sender, EventArgs args)
@@ -41,8 +40,8 @@ namespace weRid
 			string go =string.Format("SELECT * FROM user");
 			//string go ="SELECT * FROM user WHERE LOGAN";
 			//string go = "select * from user WHERE LOGAN";
-			string connStr = WebConfigurationManager.ConnectionStrings["connectionString"].ConnectionString; //так гораздо лучше хранить струку подключения
-            MySqlConnection conn = new MySqlConnection(connStr);
+			string connStr = "Server=MYSQL5016.myASP.NET;Database=db_9fb8eb_2009;Uid=9fb8eb_2009;Pwd=iyg45HHed7;";
+			MySqlConnection conn = new MySqlConnection(connStr);
 			try
 			{
 				conn.Open();

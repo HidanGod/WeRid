@@ -1,0 +1,534 @@
+﻿@charset "windows-1251";
+/* CSS Document */
+.sdf
+{
+   position: fixed; 
+   top:100px;
+   left:100px;
+   right:10px;
+   height: 140px;
+   width: 140px;
+
+}
+.exit
+{
+   position: fixed; 
+   top:10px;
+   left:10px;
+   right:10px;
+   height: 20px;
+   width: 60px;
+}
+ /* фон*/
+.panelfon1
+{
+   position: fixed; 
+   height:100%;
+   width: 100%;
+    background: url('/resource/sky.jpg') no-repeat;
+
+    background-size: 100%; /* Современные браузеры */
+
+}
+ /*панель для регистрации*/
+.Registration
+{
+
+   text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#36beeb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+     position: fixed; 
+   top: 50px;
+   left: 700px;
+   text-decoration:none; 
+   text-align:center; 
+   height: 50px;
+   width: 250px;
+}
+ .Registration:hover{
+ padding:11px 32px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:20px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#50c4eb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+ position: fixed; 
+   top: 50px;
+   left: 700px;
+   text-decoration:none; 
+   text-align:center; 
+   height: 50px;
+   width: 250px;
+ }
+ /*панель для авторизации*/
+.Auterification
+{
+
+text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#36beeb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+    position: fixed; 
+   top: 50px;
+   left: 400px;
+   text-decoration:none; 
+   text-align:center; 
+   height: 50px;
+   width: 250px;
+  }
+  .Auterification:hover{
+ padding:11px 32px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:20px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#50c4eb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  position: fixed; 
+   top: 50px;
+   left: 400px;
+   text-decoration:none; 
+   text-align:center; 
+   height: 50px;
+   width: 250px;
+ }
+.panelfon
+{
+   position: fixed; 
+   top:150px;
+   left:400px;
+
+   height: 600px;
+   width: 600px;
+
+}
+ /*панель для регистарции*/
+.panelfon2
+{
+   position: fixed; 
+   top:150px;
+   left:400px;
+
+   height: 600px;
+   width: 600px;
+
+}
+ /*лабле рег*/
+.TextReg
+{
+   position: absolute; 
+   top:3px;
+   left:10px;
+   height: 30px;
+   width: 100%;
+   text-align: center;
+}
+ /*лабле имя*/
+.name2
+{
+   position: absolute; 
+   top:63px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод имени*/
+ .nameText
+{
+   position: absolute; 
+   top:60px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+
+ /*лабле логин*/
+.login2
+{
+   position: absolute; 
+   top:103px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод логина*/
+.loginText
+{
+   position: absolute; 
+   top:100px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*лабле пароль*/
+.Passwd
+{
+   position: absolute; 
+   top:143px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод пароля*/
+.PasswdText
+{
+   position: absolute; 
+   top:140px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*лабле пароль2*/
+.Passwd2
+{
+   position: absolute; 
+   top:183px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод пароля2*/
+.PasswdText2
+{
+   position: absolute; 
+   top:180px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*лабле пол*/
+.pol
+{
+   position: absolute; 
+   top:223px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод пола*/
+ .polText
+{
+   position: absolute; 
+   top:220px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*лабле номера телефона*/
+.NumTel
+{
+   position: absolute; 
+   top:263px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+ /*ввод  номера телефона*/
+.NumTelText
+{
+   position: absolute; 
+   top:260px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*лабле проверки*/
+.Prov
+{
+   position: absolute; 
+   top:303px;
+   left:10px;
+   height: 30px;
+   width: 150px;
+
+}
+
+ /*ввод  проверки*/
+.ProvText
+{
+   position: absolute; 
+   top:300px;
+   left:200px;
+   height: 20px;
+   width: 150px;
+
+}
+ /*картинка  проверки*/
+.Prov2
+{ 
+   position: absolute; 
+   top:300px;
+   left:400px;
+   height: 30px;
+   width: 150px;
+     border: 2px solid #FFFFFF; 
+    background: url('/resource/captcha.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+ /*кнопка создания пользователя*/
+.Registration2{
+ position: absolute; 
+  text-decoration:none; 
+  text-align:center; 
+
+
+text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#36beeb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+  height: 60px;
+ width: 200px;
+ top: 350px;
+ left: 400px;
+  }
+  .Registration2:hover{
+ padding:11px 32px; 
+ border:solid 2px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:20px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#50c4eb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  height: 60px;
+ width: 200px;
+ top: 350px;
+ left: 400px;
+ }
+
+ .Registration2:active{
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ text-shadow: 0px 0px 2px #bababa; 
+ filter: dropshadow(color=#bababa, offx=0, offy=0);
+  height: 60px;
+ width: 200px;
+ top: 350px;
+ left: 400px;
+ }
+
+
+ /* сам элемент логин*/
+.Login 
+{
+    top: 0px;
+    height: 660px;
+    width: 660px;
+    Font-Size="0.8em";
+    ForeColor="#333333";
+    TextLayout="TextOnTop";
+    BackColor="#FFF11F";
+    BorderColor="#E6E2D8";
+    BorderPadding="4";
+    BorderStyle="Solid";
+    BorderWidth="1px";
+    Font-Names="Verdana";
+
+    ForeColor="#333333";
+    TextLayout="TextOnTop"; 
+    display:inline-block;
+}
+
+.Title 
+{
+  
+    top: 20px;
+    BackColor="#1C5E55";
+    Font-Bold="True";
+    Font-Size="0.9em";
+    ForeColor="White";
+    padding: 6px;
+}
+ /* поле для ввода логина*/
+.MyLoginTextBoxStyle
+ {
+    position: relative;
+    top: 50px;
+    left:10px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+
+    text-align: left;
+    padding:6px;
+
+    font-family: Verdana;
+    vertical-align: middle;
+    Font-Size="0.8em";
+    background: #FFFFFF;
+    border: 10px; 
+    border-color: transparent;
+}
+ /* текст логин и пароль*/
+.LabelStyle 
+{
+    position: relative;
+    top: 60px;
+    left: -100px;
+    height: 30px;
+    width: 150px;
+}
+ /*запомнить пароль*/
+.CheckBoxStyle 
+{ 
+    position: relative;
+    top: 150px;
+    height: 30px;
+    width: 150px;
+}
+.FailureTextStyle 
+{ 
+   top:900px;
+   left:200px;
+}
+
+
+.LoginButtonStyle
+{
+  position: absolute; 
+  text-decoration:none; 
+  text-align:center; 
+  padding:11px 32px; 
+  border:solid 1px #004F72; 
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px; 
+ border-radius: 8px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px -2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px -2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px -2px #bababa, inset 0px 0px 1px #ffffff;  
+ opacity:0.96; 
+ -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=96); 
+ filter: alpha(opacity=96); 
+  top: 250px;
+ left: 500px;
+  }
+  .LoginButtonStyle:hover{
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:21px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }
+ .LoginButtonStyle:active
+ {
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ text-shadow: 0px 0px 2px #bababa; 
+ filter: dropshadow(color=#bababa, offx=0, offy=0);
+ }

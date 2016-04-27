@@ -1,0 +1,409 @@
+﻿@charset "windows-1251";
+/* CSS Document */
+
+
+.PostCreat
+{
+    position: fixed; 
+   top: 50px;
+   left: 700px;
+   text-decoration:none; 
+   text-align:center; 
+   height: 50px;
+   width: 150px;
+   text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background:#36beeb; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+   top: 90%;
+  left: 80%;
+   width: 200px;
+	 height: 60px;
+  position: fixed; 
+     z-index: 555;
+}
+ .PostCreat:hover
+ {
+  padding:11px 32px; 
+  border:solid 2px #004F72; 
+  -webkit-border-radius:13px;
+  -moz-border-radius:13px; 
+   border-radius: 13px; 
+   font:20px Arial, Helvetica, sans-serif; 
+   font-weight:bold; 
+   color:#E5FFFF; 
+   background:#50c4eb; 
+   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+   position: fixed; 
+   top: 50px;
+   left: 700px;
+   text-decoration:none; 
+   text-align:center; 
+   width: 200px;
+   height: 60px;
+   top: 90%;
+   left: 80%;
+   position: fixed; 
+   z-index: 555;
+ }
+
+
+/*форма*/
+.form
+{
+   position:absolute;
+   height:100%;
+   width:99%;
+   background: #FFFFFF
+}
+
+.block
+	{
+
+	 width: 200px;
+	 height: 100px;
+	 background: #ccc;
+	 margin-bottom: 5px;
+	}
+/*центр*/
+.MainPanel
+{
+  position: absolute; 
+  left: 230px;
+  top: 160px;
+  width:1000px;
+  border: 2px solid #FFFFFF; 
+  background: url('/resource/sky.jpg');
+  background-size: 100%; /* Современные браузеры */
+}
+/*меню с верху*/
+.Paneltopmenu
+{
+    top: 0px;
+    height: 130px;
+    width:100%;
+    left: 5px;
+    z-index: 112;
+    position: fixed;
+    background: url('/resource/fon.jpg') no-repeat;
+    background-size: 100%; /* Современные браузеры */
+
+}
+/*логин*/
+.loginbotom
+{
+   position: relative; 
+   left: 0px;
+   right: 50px;
+   bottom: 25px;
+   BackColor="White";
+   BorderColor="#C5BBAF";
+   BorderStyle="Solid";
+   BorderWidth="1px";
+   Font-Names="Verdana";
+   Font-Size="0.8em";
+   ForeColor="#1C5E55"; 
+
+}
+/*поиск*/
+.poisk
+{
+    position: absolute; 
+    top: 40px;
+    left: 850px;
+    width: 40px; /* Ширина блока */
+    height: 32px; /* Высота блока */
+    Border: 0;
+
+
+    background-size: 100%; /* Современные браузеры */
+}
+/*имя*/
+.name
+{
+    position: relative; 
+    top: 50px;
+    left: -120px;
+    float:right;
+    margin-right: auto;
+    height: 30px; /* Высота блока */
+    width: 80px; /* Ширина блока */
+    Color: black;
+    text-decoration: none;
+}
+/*аватар*/
+.avatar
+{
+    position: relative; 
+    top: 15px;
+    left: -100px;
+    float:right;
+    margin-right: auto;
+    height: 100px; /* Высота блока */
+    width: 100px; /* Ширина блока */
+    background-image: url('/resource/avatar.jpg');
+
+    background-size: 100%; /* Современные браузеры */
+}
+/*выход*/
+.exit
+{
+    
+    position:absolute;
+    top:30px;
+    right:20px;
+    height: 66px; /* Высота блока */
+    width: 60px; /* Ширина блока */
+    Color: black;
+    text-decoration: none;
+    background-color: transparent;
+    margin:-3px;
+    padding:0px;
+    border:none;
+    border-radius:0px;
+
+
+    background-size: 100%; /* Современные браузеры */
+}
+/*строка поиска*/
+.TextBoxPoisk
+{
+    position: absolute; 
+    left: 350px;
+    top:40px;
+    height: 30px;
+    width: 500px; 
+    Border: 0;
+
+}
+
+
+.dobro
+{ 
+    position: absolute; 
+    left: 900px;
+    top: 30px;
+    height: 30px;
+    width: 80px; 
+    background: #F2F5A9;
+}
+/*логотип*/
+.logo
+{
+    position: absolute; 
+    top: 0px;
+    left: 50px;
+    height: 124px; 
+    width: 156px; 
+      Border: 0;
+
+
+    background-size: 100%; /* Современные браузеры */
+}
+/*меню с верху но чуть ниже*/
+.topPanelbutton
+{
+   top: 130px;
+    height: 40px;
+    width: 1250px;
+    left: 250px;
+    z-index: 112;
+    position: fixed;
+       background: #FFFFFF;
+}
+/*текущие*/
+.tekuchie
+{ 
+    position: absolute; 
+    left: 270px;
+    top: 5px;
+    height: 30px;
+    width: 170px; 
+   opacity: 1.0; 
+   Border: 0;
+   background-color:transparent;
+   font:14pt Verdana, sans-serif;
+   margin: 2pt;
+   margin-right: 25%;
+   text-align: center;
+}
+/*популярные*/
+.popula
+{ 
+    position: absolute; 
+    left: 450px;
+    top: 5px;
+    height: 30px;
+    width: 170px; 
+   opacity: 1.0; 
+   Border: 0;
+   background-color:transparent;
+   font:14pt Verdana, sans-serif;
+   margin: 2pt;
+   margin-right: 25%;
+   text-align:center
+}
+
+/*меню с лева*/
+.panel {
+   z-index: 100; 
+   top: 131px;
+   height: 400px;
+   width: 220px;
+   left: 5px;
+   position: fixed;
+   background: url('/resource/fonsleva.jpg') no-repeat;
+
+   background-size: 100%; /* Современные браузеры */
+}
+/*главная страница*/
+.glbutton
+{ 
+ left: 10px;
+  top: 0px;
+  width: 200px; 
+  position: absolute; 
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.glbutton:hover {   transition: .5s linear; background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);} /* при наведении курсора мышки */
+
+/*моя страница*/
+.mypage
+{
+  left: 10px;
+  width: 200px; 
+  top: 55px;
+  position: absolute; 
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.mypage:hover {   transition: .5s linear; background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);} /* при наведении курсора мышки */
+/*мои посты*/
+.MyPosts
+{
+  left: 10px;
+  width: 200px; 
+  top: 110px;
+  position: absolute; 
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.MyPostsn:hover {   transition: .5s linear; background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);} /* при наведении курсора мышки */
+
+.givebutton
+ {
+  left: 10px;
+  width: 200px; 
+  top: 165px;
+  position: absolute; 
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.givebutton:hover {   transition: .5s linear; background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);} /* при наведении курсора мышки */
+
+/*самый низ*/
+.botPanelbutton
+{
+    height: 0px;
+    width:0;
+    left: 0x;
+    z-index: 0;
+    bottom: 0;
+    position: absolute;
+    background: url('/resource/fon.jpg') no-repeat;
+
+    background-size: 100%; /* Современные браузеры */
+}
+.info
+{ 
+    position: absolute; 
+    left: 350px;
+    top: 5px;
+    height:0px;
+    width: 0px; 
+  
+}
